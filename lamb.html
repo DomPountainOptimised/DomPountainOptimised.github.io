@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>DingleMart Product</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <nav class="navbar">
+    <div class="logo">DingleMart</div>
+
+    <ul class="navLinks" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="currentdeals.html">Current Deals</a></li>
+      <li><a href="products.html">Products</a></li>
+    </ul>
+
+    <div class="menuToggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    </nav>
+        <script src="script.js" async defer></script>
+
+<div class="searchContainer">
+        <input type="text" id="searchInput" placeholder="Search products..." autocomplete="off" />
+        <ul id="dropdown"></ul>
+    </div>
+    <div class="grid">
+        <div class="cell">Lamb</div>
+        <div class="cell">
+            <a href="lamb.html"><img src="products/images/refrigerated/lamb.webp" alt="Image 1"></a>
+        </div>
+    </div>
+    </body>
+</html>
