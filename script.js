@@ -75,3 +75,8 @@ document.addEventListener("click", (e) => {
     dropdown.style.display = "none";
   }
 });
+
+//for hamburger menu (small window sizes or mobile)
+function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
