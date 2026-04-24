@@ -71,7 +71,7 @@ input.addEventListener("input", () => {
 
 // hides the dropdown when clicking anywhere else
 document.addEventListener("click", (e) => {
-  if (!e.target.closest(".search-container")) {
+  if (!e.target.closest(".searchContainer")) {
     dropdown.style.display = "none";
   }
 });
